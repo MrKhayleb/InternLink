@@ -14,7 +14,7 @@
     <section class="header">
         <div class="nav-links">
             <div class="nav-1">
-                <div class="nav-1-1"></div>
+                <div class="nav-1-1"><img src="./pictures/logo.png" alt="logo-img"></div>
                 <div><a href="#Home" class="logo-text">InternLink</a></div>
             </div>
 
@@ -60,25 +60,34 @@
                 <div class="view-all"><a href="#View-all">View all<i class="fa-solid fa-arrow-right"></i></a></div>
             </div>
 
-            <div>
-                <div class="job-card">
-                    <div class="job-bx"></div>
-                    <div>Frontend Developer Intern <p>TechCorp · Lagos</p>
+            <div class="job-card">
+                <div class="job-card-top">
+                    <div class="job-logo">TC</div>
+                    <div class="job-info">
+                        <div class="job-title">
+                            Frontend Developer Intern
+                            <button class="save-btn"><i class="fa-regular fa-heart"></i></button>
+                        </div>
+                        <div class="job-company">TechCorp · Lagos</div>
                     </div>
-                    <button class="save-btn">
-                        <i class="fa-regular fa-heart"></i>
-                    </button>
                 </div>
 
                 <div class="job-card1">
-                    <div class="">Internship</div>
-                    <div class="">Remote</div>
+                    <div class="tag-type">Internship</div>
+                    <div class="tag-mode">Remote</div>
                 </div>
-                <div></div>
+
+                <div class="job-card-bottom">
+                    <div class="job-price">$500–800/mo</div>
+                    <a href="#" class="view-btn">View</a>
+                </div>
             </div>
+        </div>
         </div>
     </section>
 
+
+    <script src="index.js"></script>
 </body>
 
 </html>
