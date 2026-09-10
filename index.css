@@ -30,6 +30,23 @@ body{
     border-radius: 10px;
 }
 
+.nav-1-1 {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-1-1:hover {
+    transform: rotate(8deg) scale(1.05);
+}
+
+.logo-text {
+    transition: color 0.2s ease;
+}
+
+.logo-text:hover {
+    color: #1d4ed8;
+}
+
 .nav-1{
     display: flex;
     gap: 5px;
@@ -55,6 +72,14 @@ body{
     font-weight: bold;
 }
 
+.nav-2-text {
+    transition: color 0.2s ease;
+}
+
+.nav-2-text:hover {
+    color: #2563eb;
+}
+
 .nav-3{
     display: flex;
     gap: 3px;
@@ -66,6 +91,15 @@ body{
     text-decoration: none;
     color: #2563eb;
 }
+
+.nav-3-l {
+    transition: color 0.1s ease;
+}
+
+.nav-3-l:hover {
+    color: #1d4ed8;
+}
+
 
 .nav-3-r{
     display: flex;
@@ -86,6 +120,16 @@ body{
     padding: 0 15px;
     
 }
+
+.nav-3-r {
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.nav-3-r:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
 
 .hero-section{
     width: 100%;
@@ -118,7 +162,7 @@ body{
     z-index: 0;
 }
 
-.hero-tx1, .hero-tx1 {
+.hero-tx, .hero-tx1 {
     position: relative;
     z-index: 1;
     color: #fff;
@@ -195,3 +239,90 @@ body{
     box-shadow: 0 0 0 2px #2563eb33;
 }
 
+.featured{
+    width: 100%;
+    background-color: #f3f4f6;
+    padding: 0 20px;
+
+}
+
+.featured-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featured-h > div:first-child {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.view-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    background: #2563eb;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.view-all:hover {
+    background-color: #1d4ed8;
+    transform: translateX(6px);
+}
+
+.view-all i {
+    font-size: 14px;
+}
+
+.view-all a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.job-card{
+    display: flex;
+    gap: 10px;
+}
+
+.job-bx{
+    height: 35px;
+    width: 40px;
+    background-color: #2563eb;
+    border-radius: 10px;
+}
+
+.save-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.save-btn i {
+    font-size: 18px;
+    color: #6b7280;
+    transition: color 0.2s ease;
+}
+
+.job-card1{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
