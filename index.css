@@ -21,6 +21,10 @@ body{
     align-items: center;
     background-color: white;
     color: #6b7280;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .nav-1-1 {
@@ -143,6 +147,7 @@ body{
     width: 100%;
     background-color: linear-gradient(180deg, #d1d7e4 0%, var(--bg) 100%);
     padding: 0;
+    margin-top: 70px;
 
 }
 
@@ -251,7 +256,7 @@ body{
     width: 100%;
     background-color: #f3f4f6;
     padding: 0 20px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 
 }
 
@@ -259,8 +264,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -268,6 +273,12 @@ body{
     font-size: 28px;
     font-weight: 700;
     color: #1f2937;
+}
+
+.full-job-bx{
+    width: 100%;
+    display: flex;
+    gap: 10px;
 }
 
 .view-all {
@@ -419,7 +430,7 @@ body{
 
 .job-price {
     font-weight: 700;
-    color: #1f2937;
+    color: rgb(67, 150, 67);
     font-size: 15px;
 }
 
@@ -436,7 +447,7 @@ body{
 
 .view-btn:hover {
     background-color: #f3f4f6;
-    border-color: #9ca3af;
+    border-color: #2563eb;
 }
 
 .save-btn {
@@ -448,5 +459,73 @@ body{
 
 .save-btn i {
     font-size: 15px;
+    color: #6b7280;
+}
+
+.categories-full{
+    width: 100%;
+    padding: 0 20px;
+    padding-bottom: 100px;
+}
+
+.categories-tx{
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    padding-bottom: 15px;
+}
+
+.categories-bx {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.c-bx {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 24px 16px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.c-bx:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.c-bx1 {
+    width: 48px;
+    height: 48px;
+    background-color: #2563eb;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+#emoji{
+    color: white;
+}
+
+.c-name {
+    font-weight: 700;
+    color: #1f2937;
+    font-size: 15px;
+}
+
+.c-count {
+    font-size: 13px;
     color: #6b7280;
 }

@@ -60,29 +60,144 @@
                 <div class="view-all"><a href="#View-all">View all<i class="fa-solid fa-arrow-right"></i></a></div>
             </div>
 
-            <div class="job-card">
-                <div class="job-card-top">
-                    <div class="job-logo">TC</div>
-                    <div class="job-info">
-                        <div class="job-title">
-                            Frontend Developer Intern
-                            <button class="save-btn"><i class="fa-regular fa-heart"></i></button>
+            <div class="full-job-bx">
+                <!---->
+                <div class="job-card">
+                    <div class="job-card-top">
+                        <div class="job-logo">TC</div>
+                        <div class="job-info">
+                            <div class="job-title">
+                                Frontend Developer Intern
+                                <button class="save-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="job-company">Apple Inc · USA</div>
                         </div>
-                        <div class="job-company">TechCorp · Lagos</div>
+                    </div>
+
+                    <div class="job-card1">
+                        <div class="tag-type">Internship</div>
+                        <div class="tag-mode">Remote</div>
+                    </div>
+
+                    <div class="job-card-bottom">
+                        <div class="job-price">$15-50/mon</div>
+                        <a href="#" class="view-btn">View</a>
                     </div>
                 </div>
 
-                <div class="job-card1">
-                    <div class="tag-type">Internship</div>
-                    <div class="tag-mode">Remote</div>
+                <!---->
+                <div class="job-card">
+                    <div class="job-card-top">
+                        <div class="job-logo">BD</div>
+                        <div class="job-info">
+                            <div class="job-title">
+                                Backend Developer Intern
+                                <button class="save-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="job-company">CGI Inc · Canada</div>
+                        </div>
+                    </div>
+
+                    <div class="job-card1">
+                        <div class="tag-type">Job</div>
+                        <div class="tag-mode">Remote</div>
+                    </div>
+
+                    <div class="job-card-bottom">
+                        <div class="job-price">$25-60/mon</div>
+                        <a href="#" class="view-btn">View</a>
+                    </div>
                 </div>
 
-                <div class="job-card-bottom">
-                    <div class="job-price">$500–800/mo</div>
-                    <a href="#" class="view-btn">View</a>
+                <!---->
+                <div class="job-card">
+                    <div class="job-card-top">
+                        <div class="job-logo">UI/UX</div>
+                        <div class="job-info">
+                            <div class="job-title">
+                                UI/UX Intern
+                                <button class="save-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="job-company">Samsung Electronics · South Korea</div>
+                        </div>
+                    </div>
+
+                    <div class="job-card1">
+                        <div class="tag-type">Internship</div>
+                        <div class="tag-mode">Remote</div>
+                    </div>
+
+                    <div class="job-card-bottom">
+                        <div class="job-price">$10-30/mon</div>
+                        <a href="#" class="view-btn">View</a>
+                    </div>
+                </div>
+
+                <!---->
+                <div class="job-card">
+                    <div class="job-card-top">
+                        <div class="job-logo">MA</div>
+                        <div class="job-info">
+                            <div class="job-title">
+                                Mobile App Development
+                                <button class="save-btn"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="job-company">Ocado Group · UK</div>
+                        </div>
+                    </div>
+
+                    <div class="job-card1">
+                        <div class="tag-type">Job</div>
+                        <div class="tag-mode">Remote</div>
+                    </div>
+
+                    <div class="job-card-bottom">
+                        <div class="job-price">$40-80/mon</div>
+                        <a href="#" class="view-btn">View</a>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section>
+        <div class="categories-full">
+            <div class="categories-tx">
+                Popular Categories
+            </div>
+
+            <div class="categories-bx">
+                <div class="c-bx">
+                    <div class="c-bx1"><i class="fas fa-microchip" id="emoji"></i></div>
+                    <div class="c-name">Technology</div>
+                    <p class="c-count">1,250 jobs</p>
+                </div>
+                <div class="c-bx">
+                    <div class="c-bx1"><i class="fas fa-chart-line" id="emoji"></i></div>
+                    <div class="c-name">Marketing</div>
+                    <p class="c-count">850 jobs</p>
+                </div>
+                <div class="c-bx">
+                    <div class="c-bx1"><i class="fas fa-pen-nib" id="emoji"></i></div>
+                    <div class="c-name">Design</div>
+                    <p class="c-count">620 jobs</p>
+                </div>
+                <div class="c-bx">
+                    <div class="c-bx1"><i class="fas fa-briefcase" id="emoji"></i></div>
+                    <div class="c-name">Business</div>
+                    <p class="c-count">540 jobs</p>
+                </div>
+                <div class="c-bx">
+                    <div class="c-bx1"><i class="fas fa-coins" id="emoji"></i></div>
+                    <div class="c-name">Finance</div>
+                    <p class="c-count">410 jobs</p>
+                </div>
+                <div class="c-bx">
+                    <div class="c-bx1"><i class="fas fa-book-reader" id="emoji"></i></div>
+                    <div class="c-name">Education</div>
+                    <p class="c-count">300 jobs</p>
+                </div>
+            </div>
         </div>
     </section>
 
