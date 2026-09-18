@@ -160,6 +160,7 @@
         </div>
     </section>
 
+    <!--Categories-->
     <section>
         <div class="categories-full">
             <div class="categories-tx">
@@ -201,6 +202,121 @@
         </div>
     </section>
 
+    <!--Featured Companies-->
+    <section>
+        <div class="featured-full">
+            <div class="featured-tx">
+                Featured Companies
+
+                <div class="view-btn-wrap">
+                    <div id="view-all"><a href="#View-all">View all<i class="fa-solid fa-arrow-right"></i></a></div>
+                </div>
+            </div>
+
+            <div class="f-full">
+                <div class="f-bx">
+                    <div class="f-name">Google</div>
+                </div>
+
+                <div class="f-bx">
+                    <div class="f-name">TechCorp</div>
+                </div>
+
+                <div class="f-bx">
+                    <div class="f-name">Microsoft</div>
+                </div>
+
+                <div class="f-bx">
+                    <div class="f-name">Amazon</div>
+                </div>
+
+                <div class="f-bx">
+                    <div class="f-name">Meta</div>
+                </div>
+
+                <div class="f-bx">
+                    <div class="f-name">200+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--How It Works-->
+    <section>
+        <div class="how-full">
+            <div class="how-tx">How InternLink Works</div>
+
+            <div class="how-bx">
+                <div class="how-step">
+                    <div class="how-num">1</div>
+                    <div class="how-name">Create your profile</div>
+                    <p class="how-desc">Showcase your skills and experience</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-num">2</div>
+                    <div class="how-name">Search opportunities</div>
+                    <p class="how-desc">Find the right internships</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-num">3</div>
+                    <div class="how-name">Apply</div>
+                    <p class="how-desc">Submit your application easily</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-num">4</div>
+                    <div class="how-name">Get hired</div>
+                    <p class="how-desc">Start your career journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CTA Banner-->
+    <section>
+        <div class="cta-full">
+            <div class="cta-tx">Ready to take the next step?</div>
+            <p class="cta-sub">Join thousands of students and companies on InternLink.</p>
+            <div class="cta-btns">
+                <a href="#Jobs" class="cta-btn-primary">Find Opportunities</a>
+                <a href="#PostJob" class="cta-btn-secondary">Post a Job</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer-full">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="nav-1-1"><img src="./pictures/logo.png" alt="logo-img"></div>
+                    <span>InternLink</span>
+                </div>
+                <p class="footer-tagline">Connecting students with opportunities.</p>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-h">For Students</div>
+                <a href="#Jobs">Jobs</a>
+                <a href="#Companies">Companies</a>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-h">For Companies</div>
+                <a href="#PostJob">Post a Job</a>
+                <a href="#Login">Login</a>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-h">Company</div>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 InternLink. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>

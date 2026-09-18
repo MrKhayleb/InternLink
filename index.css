@@ -121,16 +121,12 @@ body{
     background-color: #2563eb;
     text-align: center;
     align-items: center;
-    
-
-
 }
 
 #nav-3-r{
     text-decoration: none;
     color: white;
     padding: 0 15px;
-    
 }
 
 .nav-3-r {
@@ -148,7 +144,6 @@ body{
     background-color: linear-gradient(180deg, #d1d7e4 0%, var(--bg) 100%);
     padding: 0;
     margin-top: 70px;
-
 }
 
 .hero-sec1{
@@ -213,9 +208,7 @@ body{
     margin-top: 20px;
 }
 
-
 .search-jobs{
-    
     background: #2563eb;    
     color: #fff;
     border: none;
@@ -257,7 +250,6 @@ body{
     background-color: #f3f4f6;
     padding: 0 20px;
     padding-bottom: 80px;
-
 }
 
 .featured-h {
@@ -314,11 +306,6 @@ body{
     font-size: 15px;
 }
 
-.job-card{
-    display: flex;
-    gap: 10px;
-}
-
 .job-bx{
     height: 35px;
     width: 40px;
@@ -333,14 +320,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .save-btn i {
-    font-size: 18px;
+    font-size: 15px;
     color: #6b7280;
     transition: color 0.2s ease;
 }
-
 
 .job-card {
     background: #fff;
@@ -398,12 +385,6 @@ body{
     align-items: center;
 }
 
-.job-card1 {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
 .tag-type {
     background-color: #d1fae5;
     color: #059669;
@@ -430,7 +411,7 @@ body{
 
 .job-price {
     font-weight: 700;
-    color: rgb(67, 150, 67);
+    color: rgb(31, 214, 31);
     font-size: 15px;
 }
 
@@ -450,22 +431,10 @@ body{
     border-color: #2563eb;
 }
 
-.save-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-.save-btn i {
-    font-size: 15px;
-    color: #6b7280;
-}
-
 .categories-full{
     width: 100%;
     padding: 0 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .categories-tx{
@@ -482,7 +451,7 @@ body{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .c-bx {
@@ -528,4 +497,273 @@ body{
 .c-count {
     font-size: 13px;
     color: #6b7280;
+}
+
+.featured-full{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    gap: 20px;
+    padding: 0 20px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.featured-tx{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-btn-wrap {
+    display: flex;
+    justify-content: end;
+    border: none;
+    box-shadow: none;
+}
+
+#view-all{
+    width: 130px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    background: #2563eb;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#view-all:hover {
+    background-color: #1d4ed8;
+    transform: translateX(6px);
+}
+
+#view-all i {
+    font-size: 14px;
+}
+
+#view-all a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.f-bx{
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 24px 16px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.f-bx:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.f-name{
+    color: rgb(116, 114, 114);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.f-full{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* How It Works */
+.how-full {
+    width: 100%;
+    padding: 0 20px 90px;
+    background-color: #E9EDF3;
+}
+
+.how-tx {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    padding: 40px 0 30px;
+}
+
+.how-bx {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.how-step {
+    flex: 1;
+    min-width: 180px;
+}
+
+.how-num {
+    width: 36px;
+    height: 36px;
+    background-color: #dbeafe;
+    color: #2563eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.how-name {
+    font-weight: 700;
+    color: #1f2937;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.how-desc {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* CTA Banner */
+.cta-full {
+    width: 100%;
+    background-color: #2563eb;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.cta-tx {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.cta-sub {
+    color: #dbeafe;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.cta-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cta-btn-primary {
+    background-color: #22c55e;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.cta-btn-primary:hover {
+    background-color: #16a34a;
+}
+
+.cta-btn-secondary {
+    background-color: #fff;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.cta-btn-secondary:hover {
+    background-color: #f3f4f6;
+}
+
+/* Footer */
+.footer-full {
+    width: 100%;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 60px 40px 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #1f2937;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.footer-brand {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.footer-logo span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-tagline {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-h {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.footer-col a {
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-col a:hover {
+    color: #fff;
 }
